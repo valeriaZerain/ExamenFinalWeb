@@ -1,4 +1,4 @@
-package TodoLy;
+package todoLy;
 
 import org.junit.jupiter.api.*;
 import org.openqa.selenium.By;

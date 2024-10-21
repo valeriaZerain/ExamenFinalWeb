@@ -1,4 +1,4 @@
-package TodoLy;
+package todoLy;
 
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
@@ -22,7 +22,7 @@ public class UpdateFullName extends BaseTestTodoLy {
         Thread.sleep(10000);
         menuSection.settingsButton.click();
         Thread.sleep(5000);
-        String actualResult = settingsSection.fullNameTextbox.getText();
+        String actualResult = settingsSection.fullNameTextbox.getValue();
         Assertions.assertEquals(name,actualResult,
                 "ERROR the Full Name was not updated");
     }
