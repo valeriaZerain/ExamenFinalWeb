@@ -2,9 +2,7 @@ package testSuite;
 
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
-import pages.todoly.MenuSection;
 import pages.todoly.ProjectLeftSection;
-import pages.todoly.SettingsSection;
 
 import java.util.Date;
 
