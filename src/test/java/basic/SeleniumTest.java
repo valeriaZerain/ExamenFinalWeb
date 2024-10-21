@@ -27,4 +27,3 @@ public class SeleniumTest {
         Thread.sleep(5000);
     }
 }
-
