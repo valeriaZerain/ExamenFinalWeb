@@ -5,6 +5,7 @@ import org.junit.jupiter.api.BeforeEach;
 import pages.todoly.LoginSection;
 import pages.todoly.MainPage;
 import pages.todoly.MenuSection;
+import pages.todoly.SettingsSection;
 import session.Session;
 
 public class BaseTestTodoLy {
@@ -12,7 +13,7 @@ public class BaseTestTodoLy {
     protected MainPage mainPage = new MainPage();
     protected LoginSection loginSection = new LoginSection();
     protected MenuSection menuSection = new MenuSection();
-
+    protected SettingsSection settingsSection = new SettingsSection();
 
     @BeforeEach
     public void openBrowser(){
