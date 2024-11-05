@@ -13,6 +13,7 @@ public class BaseTestTodoLy {
     protected SettingsSection settingsSection = new SettingsSection();
     protected ProjectLeftSection projectLeftSection = new ProjectLeftSection();
     protected ItemSection itemSection = new ItemSection();
+    protected SignUpSection signUpSection = new SignUpSection();
 
     @BeforeEach
     public void openBrowser(){

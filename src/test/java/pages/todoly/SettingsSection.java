@@ -6,6 +6,7 @@ import org.openqa.selenium.By;
 
 public class SettingsSection {
     public TextBox fullNameTextbox = new TextBox(By.xpath("//input[@id='FullNameInput']"));
-
     public Button okButton = new Button(By.xpath("//button[span[text()='Ok']]"));
+    public  TextBox emailTextBox = new TextBox(By.id("EmailInput"));
+
 }
