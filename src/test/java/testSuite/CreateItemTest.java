@@ -2,7 +2,6 @@ package testSuite;
 
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
-import testSuiteTodoist.BaseTestTodoist;
 
 import java.util.Date;
 
