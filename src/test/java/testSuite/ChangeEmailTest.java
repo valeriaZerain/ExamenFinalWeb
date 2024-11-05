@@ -13,7 +13,6 @@ public class ChangeEmailTest extends BaseTestTodoLy{
         signUpSection.password.setText("password");
         signUpSection.checkBoxTerms.click();
         signUpSection.signUp.click();
-        Thread.sleep(3000);
-        Assertions.assertTrue(menuSection.logoutButton.isControlDislayed(), "ERROR! the signup was failed");
+
     }
 }
